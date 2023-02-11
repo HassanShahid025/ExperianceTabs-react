@@ -1,0 +1,100 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.main-container{
+  max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(211 219 227);
+}
+
+.title{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.underline{
+  background-color: rgb(60 123 201);
+  height: 6px;
+  margin-top: .7rem;
+  width: 149px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.company-job{
+  display: flex;
+  width: 100%;
+  margin-top: 5rem;
+  
+}
+
+.job-section{
+  flex: 2;
+  padding: 1rem;
+  display: flex;
+  height: 20rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.job-section h4{
+  color: rgb(88 92 96);
+  background-color: rgb(188 191 193);
+  border-radius: 5px;
+  width: 4.5rem;
+  padding: .4rem;
+}
+
+.job-section h6{
+  color: rgb(88 92 96);
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.role{
+  display: flex;
+}
+
+.role p{
+  font-size:1.2rem ;
+}
+
+.role i {
+  color: rgb(60 123 201);
+  margin-right: 2rem;
+}
+
+.btn-container{
+  padding:1rem ;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn-container button{
+  background-color: rgb(211 219 227);
+  width: 15rem;
+  font-size: 3rem;
+  border: none;
+  padding: .5rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.active-btn{
+  color: rgb(60 123 201);
+  border-left: 4px solid rgb(60 123 201);
+}
+
+.btn-container button:hover{
+  color: rgb(60 123 201);
+  border-left: 4px solid rgb(60 123 201);
+}
+
